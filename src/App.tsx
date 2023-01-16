@@ -1,14 +1,7 @@
-import './App.css'
-import CosmosBalanceForm from './CosmosBalanceForm';
-
-
+import CosmosBalanceForm from "./CosmosBalanceForm";
 
 function App() {
-  return (
-    <div className='App'>
-     <CosmosBalanceForm/>
-    </div>
-  );
+  return <CosmosBalanceForm />;
 }
 
 export default App;
